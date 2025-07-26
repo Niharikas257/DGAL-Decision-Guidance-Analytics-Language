@@ -5,7 +5,7 @@ A Python library that abstracts and automates the process of defining and solvin
 
 #Features
 
-- Define optimization problems using **JSON-style inputs** with symbolic decision variables
+- Define optimization problems using JSON-style inputs with symbolic decision variables
 - Support for real and integer variable types (`real?`, `int?`)
 - Automated conversion of user-defined models into Pyomo-compatible structures
 - Constraint chaining using logical `and`, `or`, and nested conditionals
