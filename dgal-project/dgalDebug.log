@@ -1,0 +1,553 @@
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpl5pkoxkd.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpj1b5q9j1.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpx_feimww.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpl5pkoxkd.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmp2vs_9oil.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmphb38tqmp.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmprqnycbm3.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp2vs_9oil.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpsp19qc57.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp54jfbuzc.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpr2uxmrqp.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpsp19qc57.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpbxza7iqo.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpwhkcaghe.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp6wiwn00w.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpbxza7iqo.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpe_ojw8ok.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp95m496g9.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpuuijtk4t.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpe_ojw8ok.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpingf7j9q.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpv9gwlzgy.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpk48i2_q7.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpingf7j9q.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 :  500.0 : int[0] + int[2] :   +Inf :   True
+      1 : 1500.0 : int[1] + int[3] : 1500.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmphi56l3sv.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp2p4s3p6b.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpmv63ueup.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmphi56l3sv.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 :  500.0 : int[0] + int[2] :   +Inf :   True
+      1 : 1500.0 : int[1] + int[3] : 1500.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpbfs3le0o.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp959lipyi.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpp113q3_8.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpbfs3le0o.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 :  500.0 : int[0] + int[2] :   +Inf :   True
+      1 : 1500.0 : int[1] + int[3] : 1500.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 3*int[0] + 2*int[1] + 4*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpwq_s9a53.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpyxvq1x2j.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp4wmklezc.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpwq_s9a53.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 :  500.0 : int[0] + int[2] :   +Inf :   True
+      1 : 1500.0 : int[1] + int[3] : 1500.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 3*int[0] + 2*int[1] + 4*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmp2t8r1x86.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpsa5dqydr.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpq5ofpyxh.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp2t8r1x86.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmp8xikjqys.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp2863wbls.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpficzwzmq.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp8xikjqys.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmpuvor8e_y.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpxj2_6xhg.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpgdf8c57g.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpuvor8e_y.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=2, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      1 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmp4d2uxks3.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpkkruzn6a.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp3vxg091d.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp4d2uxks3.pyomo.lp']
+DEBUG:pyomo.core:Constructing ConcreteModel 'ConcreteModel', from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedVar 'real' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable real
+DEBUG:pyomo.core:Constructed component ''[Model].real'':
+real : Size=0, Index=realI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+
+DEBUG:pyomo.core:Constructing IndexedVar 'int' on [Model] from data=None
+DEBUG:pyomo.core:Constructing Variable int
+DEBUG:pyomo.core:Constructed component ''[Model].int'':
+int : Size=4, Index=intI
+    Key : Lower : Value : Upper : Fixed : Stale : Domain
+      0 :  None :  None :  None : False :  True : Integers
+      1 :  None :  None :  None : False :  True : Integers
+      2 :  None :  None :  None : False :  True : Integers
+      3 :  None :  None :  None : False :  True : Integers
+
+DEBUG:pyomo.core:Constructing RangeSet, name=FiniteScalarRangeSet, from data=None
+DEBUG:pyomo.core:Constructing IndexedConstraint 'pyomoConstraint' on [Model] from data=None
+DEBUG:pyomo.core:Constructing constraint pyomoConstraint
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoConstraint'':
+pyomoConstraint : Size=4, Index=constrIndex, Active=True
+    Key : Lower  : Body            : Upper  : Active
+      0 :    0.0 :          int[3] :   +Inf :   True
+      1 :    0.0 :          int[3] :   +Inf :   True
+      2 : 1000.0 : int[0] + int[2] :   +Inf :   True
+      3 : 2000.0 : int[1] + int[3] : 2000.0 :   True
+
+DEBUG:pyomo.core:Constructing ScalarObjective 'pyomoObjective' on [Model] from data=None
+DEBUG:pyomo.core:Constructing objective pyomoObjective
+DEBUG:pyomo.core:Constructed component ''[Model].pyomoObjective'':
+pyomoObjective : Size=1, Index=None, Active=True
+    Key  : Active : Sense    : Expression
+    None :   True : minimize : 5*int[0] + 4*int[1] + 2*int[2] + 3*int[3]
+
+DEBUG:pyomo.core:Constructing Variable ONE_VAR_CONSTANT
+DEBUG:pyomo.core:Writing model 'unknown' to file 'C:\Users\NIHARI~1\AppData\Local\Temp\tmp8w8nha61.pyomo.lp' with format cpxlp
+DEBUG:pyomo.opt:Running ['C:\\winglpk-4.65\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmpk3m67jko.glpk.raw', '--wglp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmptzqi8725.glpk.glp', '--cpxlp', 'C:\\Users\\NIHARI~1\\AppData\\Local\\Temp\\tmp8w8nha61.pyomo.lp']

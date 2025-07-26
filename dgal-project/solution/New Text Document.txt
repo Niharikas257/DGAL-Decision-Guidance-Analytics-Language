@@ -1,0 +1,5 @@
+Installed pyomo
+
+K:\SEM-3\CS787\Assignment\HW-2\cs787_ha2_supp_manuf_transp_sn_template\cs787_ha2_supp_manuf_transp_sn_template>py solution/main.py<example_input_output/supplier_in.json>answers/out.json
+
+py solution/main.py<example_input_output/combined_transp_in.json>answers/out.json
