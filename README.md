@@ -1,10 +1,10 @@
-<!-- Project Badges -->
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/python-app.yml?branch=main)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/actions)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)
+<!-- Technology Stack Badges -->
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Pyomo](https://img.shields.io/badge/Pyomo-Optimization-brightgreen)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=awslambda&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-Data%20Config-lightgrey?logo=json&logoColor=white)
+![Optimization](https://img.shields.io/badge/Optimization-Operations%20Research-blueviolet)
+
 
 
 # DGAL-Decision-Guidance-Analytics-Language
