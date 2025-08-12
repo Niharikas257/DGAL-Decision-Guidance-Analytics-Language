@@ -1,3 +1,12 @@
+<!-- Project Badges -->
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/python-app.yml?branch=main)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/actions)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)](https://github.com/Niharikas257/DGAL-Decision-Guidance-Analytics-Language)
+
+
 # DGAL-Decision-Guidance-Analytics-Language
 Python library for modeling and solving constraint-based optimization problems using Pyomo. Designed for supply chain, manufacturing, and service network decision analytics.
 
